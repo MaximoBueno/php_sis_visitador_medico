@@ -1,0 +1,335 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#uHeader {
+    height: 10%;
+    width: 100%;
+}
+
+/***************************
+***************************/
+
+#uMdi {
+    height: 90%;
+    position: relative;
+}
+
+.uLateral-lg {
+    height: 100%;
+    width: 20%;
+    float: left;
+    transition: width .3s;
+    transition: width .3s ease-in-out;
+}
+
+.uLateral-sm {
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    z-index: 2;
+    opacity: .95;
+    transition: width .3s;
+    transition: width .3s ease-in-out;
+}
+
+.uLateral {
+    width: 0px !important;
+}
+
+.u-Lateral {
+    width: 100% !important;
+}
+
+.uMain-lg {
+    height: 100%;
+    width: 80%;
+    float: right;
+    transition: width .3s;
+    transition: width .3s ease-in-out;
+    overflow: auto;
+}
+
+.uMain-sm {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    transition: width .3s;
+    transition: width .3s ease-in-out;
+    overflow: auto;
+}
+
+.uMain {
+    width: 100% !important;
+}
+
+/***************************
+***************************/
+
+.uLateral-lg>div>ul,
+.uLateral-sm>div>ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fiList a>div {
+    padding: 3px 3px !important;
+    margin-left: 5px;
+    border-radius: 0px !important;
+}
+
+.fiList a>div h5,
+.fiList a>div i {
+    font-size: 15px !important;
+}
+
+.fiList li {
+    margin: 2px auto !important;
+    padding: 2px 5px !important;
+    padding-left: 20px !important;
+}
+
+.fiList li h6 {
+    font-size: 13px;
+}
+
+.btnList {
+    cursor: pointer;
+}
+
+.ulistMenu {
+    padding-left: 10px;
+}
+
+.btnList-menu {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+}
+
+.fiList a>div {
+    padding: 8px 3px;
+}
+
+.fiList a:hover>div>h5 {
+    font-weight: bold;
+    transition: all .2s;
+}
+
+.fiList a:hover>div {
+    border-left: 2px solid #fff;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 3px;
+    transition: all .1s;
+}
+
+.fiList .iconMenu {
+    color: #fff
+}
+
+.fiList li {
+    margin-top: 5px;
+    padding-left: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.fiList li:hover {
+    background-color: rgb(158, 155, 145);
+    border-radius: 3px;
+    border-left: 2px solid #fff;
+}
+
+.contensMenuLat {
+    overflow: hidden;
+    height: 100%;
+}
+
+.uLateral-lg:hover .contensMenuLat {
+    overflow: auto !important;
+}
+
+/***************************
+
+***************************/
+
+.centrar-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uCentrarCustom{    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.uLink {
+    background: #f44;
+    margin: auto 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-decoration: none !important;
+    color: #333;
+    transition: all .3s;
+    transition: all .3s ease-in-out;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.uLink:hover {
+    background: #333;
+    color: #4ff;
+    border-radius: 10px;
+}
+
+.uGreen {
+    background: #253746;
+}
+.uGreenBorder {
+    border-color: #03629a !important;
+}
+
+
+.uGreenMenu{
+
+}
+
+.uGroupInput{
+    font-size: 12px !important;
+    font-weight: bold;
+}
+
+#uScroll{
+    overflow: hidden;
+}
+
+#uScroll:hover{
+    overflow: auto;
+}
+
+/****************************************
+**** SOLO PARA LA PANTALLA DE INICIO ****
+****************************************/
+
+.log-color {
+    /*background-color: rgba(53, 155, 78, .8);*/
+    background-color: rgb(13,71,161,0.8);
+}
+
+.bg-custom-mine-vm{
+    background-color: #0D47A1;
+}
+
+.bg-custom-mine-vm:hover{
+    background-color: #1976D2;
+    border: 1px solid white;
+}
+
+.bg-custom-mine-button{
+    background-color: #0D47A1;
+}
+
+.bg-custom-mine-button:hover{
+    background-color: #1976D2;
+    border: 1px solid white;
+}
+
+.log-absolute {
+    position: absolute
+}
+
+.log-line {
+    width: 5px;
+    height: 100%;
+    position: relative;
+    margin-right: 5px;
+    margin-left: auto;
+    float: right
+}
+
+.log-contLogo {
+    float: left;
+    width: 95%
+}
+
+.log-img {
+    float: left;
+    margin: auto
+}
+
+.wr-50p {
+    width: 45%;
+    margin-left: auto;
+    float: right;
+}
+
+.wl-50p {
+    width: 55%;
+    margin-right: auto;
+    float: left;
+}
+
+.cirPri {
+    height: 100px;
+    width: 100px;
+}
+
+.cirSec {
+    height: 90px;
+    width: 90px;
+}
+
+.cirTer {
+    height: 80px;
+    width: 80px;
+}
+
+@media (max-width:758px){
+    .wl-50p{
+        display: none;
+    }
+    .wr-50p{
+        width: 100%;
+    }
+}
+
+/****************************************
+FIN DE LOS CSS PARA LA PANTALLA DE INICIO
+****************************************/
+
+.alturaClass {
+    min-height: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#my_titulo span {
+    color: white;
+    font-weight: bold;
+}
+
+.my_salir{
+    text-decoration: none;
+    color:  white;
+    font-size: 20px;
+}
+.my_salir:hover{
+    color: red;
+}
+.reStyle{
+    text-align: right;
+}
+
+/****************************************
+SOBRE ESCRIBIENDO BOOSTRAP
+****************************************/
+
