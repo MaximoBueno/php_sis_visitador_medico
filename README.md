@@ -3,4 +3,4 @@ Sistema realizado como proyecto de investigación.
 
 Versión: 1.0 beta.
 
-Autor: Maximo Hugo Bueno Uribe.
+Autor: Max.
