@@ -31,6 +31,6 @@
     }
 </style>
 <!-- SECCIÓN -->
-<script src="<?php echo $ruta; ?>assets/js/jquery-3.4.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="<?php echo $ruta; ?>assets/js/bootstrap.min.js"></script>
 <script src="<?php echo $ruta; ?>assets/js/tools.js"></script>
